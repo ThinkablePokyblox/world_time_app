@@ -1,16 +1,5 @@
-# world_time
+### World time app
+Tutorial by net ninja on youtube.
+I have edited it and made it my own and also went through the tutorial step by step and didn't just copy and paste.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Brilliant tutorial definitely recommend watching it if you want to learn flutter.
