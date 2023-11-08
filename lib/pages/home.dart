@@ -97,7 +97,7 @@ class _HomeState extends State<Home> {
                     ),
                     SizedBox(width: 5,),
                     CircleAvatar(
-                      backgroundImage: AssetImage(data['flag']),
+                      backgroundImage: AssetImage("assets/${data['flag']}"),
                       radius: 13,
                     ),
                   ],

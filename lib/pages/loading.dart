@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:world_time/services/worldTime.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import '../services/worldTimes.dart';
 // Loading
 class Loading extends StatefulWidget {
   @override
@@ -11,6 +12,7 @@ class _LoadingState extends State<Loading> {
 
   void setupWorldTime() async {
     IpTime instance = IpTime(location: "N/A", flag: "N/A", url: "N/A", country: "N/A");
+    locations[0] = instance;
     await instance.getTime();
     await Future.delayed(Duration(seconds: 3));
     Navigator.pushReplacementNamed(context, '/home', arguments: {

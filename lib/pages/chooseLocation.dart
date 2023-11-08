@@ -40,7 +40,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
 
   @override
   Widget build(BuildContext context) {
-    ipTime.getTime();
     print("build function ran.");
     return Scaffold(
       backgroundColor: Colors.grey[200],
