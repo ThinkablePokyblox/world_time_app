@@ -2,7 +2,7 @@
 import 'package:world_time/services/worldTime.dart';
 // locations
 List<dynamic> locations = [
-  IpTime(location: "N/A", flag: "N/A", url: "N/A", country: "N/A"),
+  IpTime(location: "Local Area", flag: "elementor-placeholder-image.png", url: "N/A", country: "Failed to load"),
   WorldTime(url: 'Africa/Abidjan', location: 'Abidjan', country: 'Ivory Coast', flag: 'ci.png'),
   WorldTime(url: 'Africa/Algiers', location: 'Algiers', country: 'Algeria', flag: 'dz.png'),
   WorldTime(url: 'Africa/Bissau', location: 'Bissau', country: 'Guinea-Bissau', flag: 'gw.png'),

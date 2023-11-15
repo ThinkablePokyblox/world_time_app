@@ -64,10 +64,11 @@ class _ChooseLocationState extends State<ChooseLocation> {
         elevation: 0,
       ),
       body: Column(
+
         children: [
           SizedBox(height: 10,),
-          SizedBox(
-            width: 460,
+          Padding(
+            padding: const EdgeInsets.all(15.0),
             child: TextFormField(
               controller: SearchFilterTextController,
               onChanged: (value) {
