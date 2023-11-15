@@ -67,7 +67,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
         children: [
           SizedBox(height: 10,),
           SizedBox(
-            width: 1200,
+            width: 460,
             child: TextFormField(
               controller: SearchFilterTextController,
               onChanged: (value) {
